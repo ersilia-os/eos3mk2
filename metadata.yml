@@ -1,6 +1,6 @@
 Identifier: eos3mk2
 Slug: bbbp-marine-kinase-inhibitors
-Status: In progress
+Status: Ready
 Title: BBBP model tested on marine-derived kinase inhibitors
 Description: A set of three binary classifiers (random forest, gradient boosting classifier,
   and logistic regression) to predict the Blood-Brain Barrier (BBB) permeability of
