@@ -1,0 +1,4 @@
+name,type,direction,description
+rfc_score,float,high,Random forest classifier score estimating the likelihood that the compound will permeate through the blood-brain barrier
+gbc_score,float,high,Gradient boosting classifier score estimating the likelihood that the compound will permeate through the blood-brain barrier
+logreg_score,float,high,Logistic regression classifier score estimating the likelihood that the compound will permeate through the blood-brain barrier
