@@ -42,3 +42,5 @@ DockerHub: https://hub.docker.com/r/ersiliaos/eos3mk2
 Docker Architecture:
   - AMD64
   - ARM64
+Model Size: 8.0
+Environment Size: 708.0
