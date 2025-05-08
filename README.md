@@ -43,7 +43,12 @@ Below are the **Output Columns** of the model:
 ### Resource Consumption
 - **Model Size (Mb):** `8`
 - **Environment Size (Mb):** `709`
+- **Image Size (Mb):** `651.36`
 
+**Computational Performance (seconds):**
+- 10 inputs: `34.07`
+- 100 inputs: `692.07`
+- 10000 inputs: `-1`
 
 ### References
 - **Source Code**: [https://github.com/plissonf/BBB-Models](https://github.com/plissonf/BBB-Models)
