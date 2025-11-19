@@ -2,11 +2,11 @@ Identifier: eos3mk2
 Slug: bbbp-marine-kinase-inhibitors
 Status: Ready
 Title: BBBP model tested on marine-derived kinase inhibitors
-Description: A set of three binary classifiers (random forest, gradient boosting classifier,
-  and logistic regression) to predict the Blood-Brain Barrier (BBB) permeability of
-  small organic compounds. The best models were applied to natural products of marine
-  origin, able to inhibit kinases associated with neurodegenerative disorders. The
-  training set size was around 300 compounds.
+Description: A set of three binary classifiers (random forest, gradient boosting
+  classifier, and logistic regression) to predict the Blood-Brain Barrier (BBB) 
+  permeability of small organic compounds. The best models were applied to 
+  natural products of marine origin, able to inhibit kinases associated with 
+  neurodegenerative disorders. The training set size was around 300 compounds.
 Deployment:
   - Local
 Source: Local
@@ -16,13 +16,13 @@ Subtask: Activity prediction
 Input:
   - Compound
 Input Dimension: 1
-Input Shape: Single
 Output:
   - Score
 Output Dimension: 3
 Output Consistency: Fixed
-Interpretation: Classification score over three classifiers, namely random forest
-  (rfc), gradient boosting classifier (gbc), and logistic regression (logreg).
+Interpretation: Classification score over three classifiers, namely random 
+  forest (rfc), gradient boosting classifier (gbc), and logistic regression 
+  (logreg).
 Tag:
   - Drug-likeness
   - Permeability
@@ -50,3 +50,4 @@ Computational Performance 2: 79.86
 Computational Performance 3: 692.07
 Computational Performance 4: -1.0
 Computational Performance 5: -1.0
+Input Shape: Single
