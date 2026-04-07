@@ -41,7 +41,8 @@ for smiles in smiles_list:
 print(neutralized_smiles)
 
 # calculate descriptors
-descriptors = np.array(descriptors_calculator(neutralized_smiles))
+descriptors, valid_indices = descriptors_calculator(neutralized_smiles)
+descriptors = np.array(descriptors)
 
 # normalize descriptors
 descriptors = np.array(pd.DataFrame(scaler.transform(descriptors)).fillna(0))
@@ -51,13 +52,15 @@ output_1 = model_1.predict_proba(descriptors)[:, 1]
 output_2 = model_2.predict_proba(descriptors)[:, 1]
 output_3 = model_3.predict_proba(descriptors)[:, 1]
 
-# reconstruct output
+# reconstruct output preserving original order; use " " for failed entries
+valid_pos = {orig_idx: pos for pos, orig_idx in enumerate(valid_indices)}
 outputs = []
 for i in range(len(smiles_list)):
-    o1 = float(output_1[i])
-    o2 = float(output_2[i])
-    o3 = float(output_3[i])
-    outputs += [[o1, o2, o3]]
+    if i in valid_pos:
+        pos = valid_pos[i]
+        outputs.append([float(output_1[pos]), float(output_2[pos]), float(output_3[pos])])
+    else:
+        outputs.append([" ", " ", " "])
 
 #check input and output have the same length
 input_len = len(smiles_list)
