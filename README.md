@@ -2,7 +2,7 @@
 
 A set of three binary classifiers (random forest, gradient boosting classifier, and logistic regression) to predict the Blood-Brain Barrier (BBB) permeability of small organic compounds. The best models were applied to natural products of marine origin, able to inhibit kinases associated with neurodegenerative disorders. The training set size was around 300 compounds.
 
-This model was incorporated on 2024-10-23.Last packaged on 2025-11-19.
+This model was incorporated on 2024-10-23.Last packaged on 2026-04-13.
 
 ## Information
 ### Identifiers
@@ -43,11 +43,11 @@ Below are the **Output Columns** of the model:
 ### Resource Consumption
 - **Model Size (Mb):** `9`
 - **Environment Size (Mb):** `711`
-- **Image Size (Mb):** `737.82`
+- **Image Size (Mb):** `741.72`
 
 **Computational Performance (seconds):**
-- 10 inputs: `28.61`
-- 100 inputs: `239.22`
+- 10 inputs: `32.45`
+- 100 inputs: `249.57`
 - 10000 inputs: `-1`
 
 ### References
