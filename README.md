@@ -52,7 +52,7 @@ Below are the **Output Columns** of the model:
 
 ### References
 - **Source Code**: [https://github.com/plissonf/BBB-Models](https://github.com/plissonf/BBB-Models)
-- **Publication**: [https://pubmed.ncbi.nlm.nih.gov/30699889/](https://pubmed.ncbi.nlm.nih.gov/30699889/)
+- **Publication**: [https://doi.org/10.3390/md17020081](https://doi.org/10.3390/md17020081)
 - **Publication Type:** `Peer reviewed`
 - **Publication Year:** `2019`
 - **Ersilia Contributor:** [miquelduranfrigola](https://github.com/miquelduranfrigola)
