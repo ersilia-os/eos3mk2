@@ -1,6 +1,6 @@
 # BBBP model tested on marine-derived kinase inhibitors
 
-A set of three binary classifiers (random forest, gradient boosting classifier, and logistic regression) to predict the Blood-Brain Barrier (BBB) permeability of small organic compounds. The best models were applied to natural products of marine origin, able to inhibit kinases associated with neurodegenerative disorders. The training set size was around 300 compounds.
+Judges whether a compound is likely to reach the brain, developed by Plisson specifically to triage marine-derived kinase inhibitors as candidates for neurodegenerative disease. Ensemble classifiers were trained on curated blood-brain barrier permeability data and then applied prospectively to a marine natural product library, surfacing several hits worth pursuing. Ersilia distributes a replicated implementation. Marine natural products occupy chemical space sparsely represented in the training data, which is precisely why the authors tested there.
 
 This model was incorporated on 2024-10-23.Last packaged on 2026-04-13.
 
@@ -23,7 +23,7 @@ This model was incorporated on 2024-10-23.Last packaged on 2026-04-13.
 ### Output
 - **Output Dimension:** `3`
 - **Output Consistency:** `Fixed`
-- **Interpretation:** Classification score over three classifiers, namely random forest (rfc), gradient boosting classifier (gbc), and logistic regression (logreg).
+- **Interpretation:** Probability that a compound crosses the blood-brain barrier.
 
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
