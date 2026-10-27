@@ -2,14 +2,15 @@ Identifier: eos3mk2
 Slug: bbbp-marine-kinase-inhibitors
 Status: Ready
 Title: BBBP model tested on marine-derived kinase inhibitors
-Description: Judges whether a compound is likely to reach the brain, developed by
-  Plisson and Piggott to triage marine-derived kinase inhibitors as candidates for
-  neurodegenerative disease. Random forest, gradient boosting and logistic regression
-  classifiers were fitted to a training set of 332 previously reported small molecules,
-  reaching 80 to 82% cross-validated accuracy, then applied to 471 marine natural
-  products with reported kinase inhibition, of which 13 were predicted to cross the
-  barrier. Ersilia distributes a replicated implementation; those 13 predictions were
-  never tested experimentally.
+Description: Judges whether a compound is likely to reach the brain, developed 
+  by Plisson and Piggott to triage marine-derived kinase inhibitors as 
+  candidates for neurodegenerative disease. Random forest, gradient boosting and
+  logistic regression classifiers were fitted to a training set of 332 
+  previously reported small molecules, reaching 80 to 82% cross-validated 
+  accuracy, then applied to 471 marine natural products with reported kinase 
+  inhibition, of which 13 were predicted to cross the barrier. Ersilia 
+  distributes a replicated implementation; those 13 predictions were never 
+  tested experimentally.
 Deployment:
   - Local
 Source: Local
@@ -23,8 +24,8 @@ Output:
   - Score
 Output Dimension: 3
 Output Consistency: Fixed
-Interpretation: Three classifier scores for blood-brain barrier permeability, from
-  random forest, gradient boosting and logistic regression.
+Interpretation: Three classifier scores for blood-brain barrier permeability, 
+  from random forest, gradient boosting and logistic regression.
 Tag:
   - Drug-likeness
   - Permeability
@@ -40,7 +41,7 @@ License: MIT
 Contributor: miquelduranfrigola
 Incorporation Date: '2024-10-23'
 Last Packaging Date: '2026-04-13'
-Release: v1.0.0
+Release: v1.1.0
 S3: https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos3mk2.zip
 DockerHub: https://hub.docker.com/r/ersiliaos/eos3mk2
 Docker Architecture:
