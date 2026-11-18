@@ -41,7 +41,7 @@ License: MIT
 Contributor: miquelduranfrigola
 Incorporation Date: '2024-10-23'
 Last Packaging Date: '2026-04-13'
-Release: v2.0.0
+Release: v2.0.1
 S3: https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos3mk2.zip
 DockerHub: https://hub.docker.com/r/ersiliaos/eos3mk2
 Docker Architecture:
