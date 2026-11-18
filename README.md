@@ -2,7 +2,8 @@
 
 Judges whether a compound is likely to reach the brain, developed by Plisson and Piggott to triage marine-derived kinase inhibitors as candidates for neurodegenerative disease. Random forest, gradient boosting and logistic regression classifiers were fitted to a training set of 332 previously reported small molecules, reaching 80 to 82% cross-validated accuracy, then applied to 471 marine natural products with reported kinase inhibition, of which 13 were predicted to cross the barrier. Ersilia distributes a replicated implementation; those 13 predictions were never tested experimentally.
 
-This model was incorporated on 2024-10-23.Last packaged on 2026-04-13.
+This model was incorporated on 2024-10-23.
+Last packaged on 2026-04-13.
 
 ## Information
 ### Identifiers
@@ -39,6 +40,7 @@ Below are the **Output Columns** of the model:
 - **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos3mk2](https://hub.docker.com/r/ersiliaos/eos3mk2)
 - **Docker Architecture:** `AMD64`, `ARM64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos3mk2.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos3mk2.zip)
+- **Apptainer**: [https://models-sif.s3.eu-north-1.amazonaws.com/eos3mk2_v2.sif](https://models-sif.s3.eu-north-1.amazonaws.com/eos3mk2_v2.sif)
 
 ### Resource Consumption
 - **Model Size (Mb):** `9`
